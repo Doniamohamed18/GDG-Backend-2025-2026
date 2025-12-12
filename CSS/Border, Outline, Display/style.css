@@ -1,0 +1,70 @@
+      /* Task 1 */
+      /* ============================================= */
+      .cont {
+          width: 550px;
+          margin: 10px auto;
+          padding: 80px;
+      }
+
+      .Shape1,
+      .Shape2,
+      .Shape3 {
+          background-color: #eee;
+          display: inline-block;
+          margin: 20px;
+          padding: 20px;
+          font-size: 23px;
+          font-style: italic;
+          font-weight: bold;
+          outline: black solid 5px;
+      }
+
+      .Shape1 {
+          border: 5px solid red;
+          border-width: 5px;
+      }
+
+      .Shape2 {
+          border: 5px solid;
+          border-color: blue green;
+      }
+
+      .Shape3 {
+          border: 5px dashed;
+          border-color: red green blue yellow;
+      }
+
+
+      /* Task 2 */
+      /* ============================================= */
+      .nt1,
+      .nt2,
+      .nt3 {
+          width: 800px;
+          margin: 20px;
+          padding: 30px;
+          font-size: 23px;
+          font-style: italic;
+          font-weight: bold;
+          background-color: #eee;
+          outline: 10px #eee solid;
+          border-left: 10px solid;
+      }
+
+      .cont2 {
+          width: 900px;
+          margin: 10px auto;
+          padding: 50px;
+      }
+
+      .nt1 {
+          border-left-color: #ff0077;
+      }
+
+      .nt2 {
+          visibility: hidden;
+      }
+
+      .nt3 {
+          border-left-color: #178b8a;
+      }

@@ -1,0 +1,78 @@
+/* Task 1 */
+/* ============================================= */
+.assaignment1 {
+    text-align: center;
+    font-size: 50px;
+    padding: 40px;
+    width: 50%;
+    margin: auto;
+    border: 1px black solid;
+    text-shadow: 1px 1px 0 red, 2px 2px 0 rgb(21, 96, 225),
+        3px 3px 0 blueviolet;
+}
+
+/* Task 2 */
+/* ============================================= */
+.assaignment2 {
+    width: 70%;
+    margin: auto;
+    border: 1px black solid;
+}
+
+.one {
+    text-transform: uppercase;
+}
+
+.two {
+    text-transform: capitalize;
+}
+
+.three {
+    text-transform: lowercase;
+}
+
+.one,
+.two,
+.three {
+    font-size: 40px;
+    text-align: center;
+}
+
+/* Task 3 */
+/* ============================================= */
+.assaignment33 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.assaignment3,
+.assaignment33 {
+    background-color: #eee;
+    font-size: 18px;
+    padding: 20px;
+    width: 400px;
+    margin: auto;
+}
+
+/* Task 4 */
+/* ============================================= */
+a {
+    background-color: rgb(12, 150, 134);
+    color: #eee;
+    text-decoration: none;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: 100px;
+    padding: 40px;
+    width: 400px;
+    margin: auto;
+    border-bottom: 25px rgb(2, 82, 63) solid;
+}
+
+.assaignment4 {
+    padding-top: 40px;
+    width: 400px;
+    margin: auto;
+}

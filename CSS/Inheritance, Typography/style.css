@@ -1,0 +1,83 @@
+/* Task 1 */
+/* ============================================= */
+div,
+p:not(section p) {
+    margin: auto;
+    border: 3px solid #ff5722;
+}
+
+div:nth-child(3),
+div:nth-child(3) p {
+    margin: auto;
+    border: 3px solid #009689;
+}
+
+div {
+    width: 60%;
+    padding: 20px;
+}
+
+p:not(section p) {
+    width: 90%;
+    background-color: #dddddd;
+    padding: inherit;
+    font-size: 25px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* Task 2 */
+/* ============================================= */ 
+
+section:nth-of-type(1),
+section:nth-of-type(1) p:nth-child(1),
+section:nth-of-type(1) p:nth-child(2),
+section:nth-of-type(1) p:nth-child(3) {
+    font-size: 40px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+/* ------------------------------------------------------------------------------------------- */
+@import url("https://fonts.googleapis.com/css2");
+
+section:nth-of-type(1) p:nth-child(1) {
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
+    font-weight: 300;
+}
+
+section:nth-of-type(1) p:nth-child(2) {
+    font-family: "Cairo", sans-serif;
+    font-weight: 700;
+}
+
+section:nth-of-type(1) p:nth-child(3) {
+    font-family: "Jomhuria", cursive;
+    font-weight: 400;
+}
+
+/* Task 3 */
+/* ============================================= */ 
+:root {
+    font-size: 20px;
+}
+
+section:nth-of-type(2) {
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+section:nth-of-type(2) p:nth-child(1) {
+    font-size: 2.5rem;
+}
+
+section:nth-of-type(2) p:nth-child(2) {
+    font-size: 2rem;
+}
+
+section:nth-of-type(2) p:nth-child(3) {
+    font-size: 1.5rem;
+}

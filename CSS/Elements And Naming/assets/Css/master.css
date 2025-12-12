@@ -1,0 +1,70 @@
+/* Task 1 */
+/* ============================================= */
+/* Any Element With Class Title */
+.title {
+}
+
+/* Any Element With id Title */
+#nav {
+}
+
+/* Any Element */
+div {
+}
+
+/* Any Element  */
+h2 {
+}
+
+/* Task 5 */
+/* ============================================= */
+/* Valid */
+._user-name {
+}
+
+/* Valid */
+.-user-name {
+}
+
+/* not */
+.1user-name {
+}
+
+/* not */
+.@user-name {
+}
+
+/* not */
+.user@name {
+}
+
+/* Valid */
+._user10name {
+}
+
+/* Valid */
+.u {
+}
+
+
+/* Task 6 */
+/* ============================================= */
+/* Bad */
+.USERNAME {
+}
+
+/* Bad */
+.UserName {
+}
+
+/* Good */
+.user-name {
+}
+
+/* Good */
+.userName {
+}
+
+/* Bad */
+.usernameprofile {
+}
