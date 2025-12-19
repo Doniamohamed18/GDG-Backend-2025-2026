@@ -1,0 +1,70 @@
+/* Task 1 */
+/* =========================================================================== */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.parent {
+    background-color: #eee;
+    width: 550px;
+    height: 300px;
+    text-align: center;
+    font-size: 27px;
+    margin-top: 80px;
+    transition-duration: 0.5s;
+    margin: 100px auto;
+}
+
+.child {
+    background-color: #ddd;
+    width: 400px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    transition-duration: 0.5s;
+}
+
+.parent:hover {
+    transform: translateY(-45px);
+}
+
+.parent:hover .child {
+    transition-delay: 0.1s;
+    transform: translateY(35px);
+}
+
+/* Task 2 */
+/* =========================================================================== */
+div:nth-of-type(2)::first-line {
+    visibility: hidden;
+}
+
+div:nth-of-type(2)::before {
+    content: "Elzero";
+    visibility: visible;
+    position: absolute;
+    left: 50%;
+    margin-left: -30px;
+    font-weight: bold;
+}
+
+/* Task 3 */
+/* =========================================================================== */
+:root {
+    --mainColor: #009688;
+    --mainPadding: 10px;
+}
+
+div:nth-of-type(3),
+div:nth-of-type(4),
+div:nth-of-type(5) {
+    border: 3px solid var(--mainColor, #000000);
+    color: var(--mainColor, #ff0000);
+    padding: var(--mainPadding, 10px);
+    width: 600px;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 10px auto;
+}
